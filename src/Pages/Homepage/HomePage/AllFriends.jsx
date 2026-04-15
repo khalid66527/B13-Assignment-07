@@ -10,11 +10,11 @@ const AllFriends = () => {
     return (
         <div className='container mx-auto '>
             <h1 className='font-bold text-2xl py-5'> Youe Friends: ({friends.length})</h1>
-            {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
                 {
                     friends.map((friend) => <FriendCart friend={friend}></FriendCart>)
                 }
-            </div> */}
+            </div>
         </div>
     );
 };
