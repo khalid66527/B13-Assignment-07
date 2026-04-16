@@ -6,6 +6,7 @@ import FriendDetails from "../Pages/FriendDetails/FriendDetails";
 import TimeLine from "../Pages/TimeLine/TimeLine";
 import ActivityRing from "../UI/ActivityRing";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
