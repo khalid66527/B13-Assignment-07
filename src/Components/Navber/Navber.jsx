@@ -9,8 +9,8 @@ const Navber = () => {
     <li> <NavLink to={"/stats"} className={({isActive}) => isActive ? "text-white bg-green-900" :""}><ImStatsDots />Stats</NavLink> </li>
     </>
     return (
-        <div className='navbar bg-base-100 shadow-sm'>
-            <div className=" container mx-auto flex justify-between">
+        <div className='navbar  bg-base-100 shadow-sm'>
+            <div className=" container mx-auto flex justify-between flex flex-col sm:flex-row">
                 <div className="">
                     <a className="btn btn-ghost text-xl text-green-900"><span className='font-bold text-black'>Keen</span>Keeper</a>
                 </div>

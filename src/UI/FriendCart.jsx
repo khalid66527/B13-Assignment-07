@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const FriendCart = ({ friend }) => {
     const { days_since_contact, status, picture, name,tags } = friend
     return (
-        <div className="bg-white space-y-2  px-8 pb-10 rounded-3xl  text-center shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+        <Link to={`/friendDetails/${friend.id}`} className="bg-white space-y-2  px-8 pb-10 rounded-3xl  text-center shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
             <img src={picture} alt="" className='rounded-full block mx-auto' />
             <h2 className='font-bold text-2xl'>{name}</h2>
             <p className='text-xl'>{days_since_contact}d ago</p>
@@ -21,7 +22,7 @@ const FriendCart = ({ friend }) => {
                 }
             </button>
 
-        </div>
+        </Link>
     );
 };
 

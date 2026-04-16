@@ -4,7 +4,7 @@ import { FaXTwitter } from 'react-icons/fa6';   // X (Twitter) icon from Font Aw
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0F3A2F] text-white mt-32 py-8">
+        <footer className="bg-green-900 text-white mt-auto py-10 ">
             <div className="max-w-4xl mx-auto px-6">
                 {/* Main Content */}
                 <div className="text-center">
