@@ -3,6 +3,8 @@ import MainLayout from "../Layout/MainLayout";
 import Homepage from "../Pages/Homepage/Homepage";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import FriendDetails from "../Pages/FriendDetails/FriendDetails";
+import TimeLine from "../Pages/TimeLine/TimeLine";
+import ActivityRing from "../UI/ActivityRing";
 
 const router = createBrowserRouter([
   {
@@ -15,11 +17,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/timeline",
-        element: "Timeline"
+        element: <TimeLine></TimeLine>
       },
       {
         path: "/stats",
-        element: "Stats"
+        element: <ActivityRing></ActivityRing>
       },
       {
         path: "/friendDetails/:id",

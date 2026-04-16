@@ -3,12 +3,16 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider } from 'react-router/dom';
 import router from './Routers/Routers';
+import FriendProvider from './Context/FriendProvider';
+import { ToastContainer } from 'react-toastify';
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}>
-      <h1 className='text-red-600'>Assingment</h1>
-    </RouterProvider>
+    <FriendProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </FriendProvider>
+      <ToastContainer />
   </StrictMode>,
 )
