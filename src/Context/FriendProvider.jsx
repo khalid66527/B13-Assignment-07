@@ -4,13 +4,13 @@ import { toast } from 'react-toastify';
 export const FriendContext = createContext()
 const FriendProvider = ({ children }) => {
     const [storeHistory, setStoreHistory] = useState([])
-
+    
     const handleTimeLineCall = (addCall) => {
         const updatedCall = { ...addCall, type: "call" };
 
         setStoreHistory([...storeHistory, updatedCall]);
 
-        toast("Call connected");
+        toast.success(`Call With ${addCall.name}`);
 
         console.log("New Entry:", updatedCall);
         console.log("Full History:", [...storeHistory, updatedCall]);
@@ -23,7 +23,7 @@ const FriendProvider = ({ children }) => {
         const updatedText = { ...addText, type: "text" };
 
         setStoreHistory([...storeHistory, updatedText]);
-        toast("Text connected");
+        toast.success(`Text With ${addText.name}`);
 
         console.log("New Text Entry:", updatedText);
     };
@@ -33,7 +33,7 @@ const FriendProvider = ({ children }) => {
         const updatedVideo = { ...addVideo, type: "video" };
 
         setStoreHistory([...storeHistory, updatedVideo]);
-        toast("Video connected");
+        toast.success(`Video With ${addVideo.name}`);
 
         console.log("New Video Entry:", updatedVideo);
     };

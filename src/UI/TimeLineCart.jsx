@@ -8,7 +8,7 @@ const TimeLineCart = ({ data }) => {
         <div>
   
             {type === "call" && (
-                <div className="flex items-center gap-4 bg-white border rounded-2xl p-5">
+                <div className="flex items-center gap-4 bg-white border rounded-2xl p-5 ">
                     <div className="">
                         <FaPhone className="text-green-900 text-3xl" />
                     </div>
