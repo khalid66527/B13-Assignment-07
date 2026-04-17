@@ -12,7 +12,7 @@ const Navber = () => {
         <div className='navbar  bg-base-100 shadow-sm'>
             <div className=" container mx-auto flex justify-between flex flex-col sm:flex-row">
                 <div className="">
-                    <a className="btn btn-ghost text-xl text-green-900"><span className='font-bold text-black'>Keen</span>Keeper</a>
+                    <span className=" text-2xl text-green-900 font-semibold"><span className='font-bold text-black'>Keen</span >Keeper</span>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
