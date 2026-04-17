@@ -1,16 +1,28 @@
-# React + Vite
+# 🌿 কিনকিপার
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 প্রকল্পের বিবরণ
 
-Currently, two official plugins are available:
+কিনকিপার হলো একটি ব্যক্তিগত সম্পর্ক ব্যবস্থাপনা ওয়েব অ্যাপ্লিকেশন যা আমার বন্ধুদের সাথে অর্থপূর্ণ সংযোগ ট্র্যাক করা বজায় রাখতে সাহায্য করে। এটি পারস্পরিক ক্রিয়াকলাপ পর্যবেক্ষণ করে , যোগাযোগের লক্ষ্য নির্ধারণ করতে এবং অ্যানালিটিক্সের মাধ্যমে সম্পৃক্ততা দেখা যায় । এই প্ল্যাটফর্মের মাধ্যমে ব্যবহারকারীরা তাদের বন্ধুদের সাথে হওয়া বিভিন্ন যোগাযোগ (Call, Text, Video) সহজেই রেকর্ড করতে পারে,
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 ব্যবহৃত প্রযুক্তি
 
-## Expanding the ESLint configuration
+* ⚛️ রিয়্যাক্ট (React)
+* 🎨 টেলউইন্ড সিএসএস (Tailwind CSS) + ডেইজিইউআই (DaisyUI)
+* 🔁 রিয়্যাক্ট রাউটার (React Router)
+* 📊 রিচার্টস (Recharts)
+* 🔔 রিয়্যাক্ট টোস্টিফাই (React Toastify)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## ✨ মূল বৈশিষ্ট্য
+### ১. 📇 বন্ধু ব্যবস্থাপনা
+* প্রতিটি বন্ধুর বিস্তারিত প্রোফাইল
+* একটি পরিচ্ছন্ন কার্ড লেআউটে সকল বন্ধুকে দেখা যাই
+
+### ২. 🕒 টাইমলাইন ট্র্যাকিং
+* ইন্টারঅ্যাকশন লগ করুন (কল, টেক্সট, ভিডিও)
+* ইন্টারঅ্যাকশনের ধরন অনুযায়ী টাইমলাইন ফিল্টার করুন
+
+### ৩. 📊 অ্যানালিটিক্স ড্যাশবোর্ড
+* পাই চার্ট ব্যবহার করে ইন্টারঅ্যাকশন ডেটা ভিজ্যুয়ালাইজ করুন

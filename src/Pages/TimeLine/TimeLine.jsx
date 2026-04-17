@@ -13,8 +13,8 @@ const TimeLine = () => {
     });
 
     return (
-        <section className=' min-h-[55vh]'>
-            <div className='container mx-auto space-y-5 py-8'>
+        <section className=' min-h-[56vh]'>
+            <div className='container mx-auto space-y-4 py-7'>
                 <h1 className='text-3xl font-bold'>Timeline :</h1>
                 
                 <select

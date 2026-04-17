@@ -27,7 +27,7 @@ const Banner = () => {
             {/* Stats Section */}
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-8 pb-10 container mx-auto">
                 <div className="bg-white border border-gray-200 rounded-2xl p-6 text-center hover:shadow-md transition-shadow">
-                    <div className="text-4xl font-bold text-emerald-700">10</div>
+                    <div className="text-4xl font-bold text-emerald-700">12</div>
                     <div className="text-sm text-gray-500 mt-1">Total Friends</div>
                 </div>
 
